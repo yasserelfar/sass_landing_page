@@ -38,7 +38,7 @@ const Header = () => {
     >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="images/xora.svg" width={115} height={55} alt="" />
+          <img src={`${import.meta.env.BASE_URL}/images/xora.svg`} width={115} height={55} alt="" />
         </a>
 
         <div
@@ -98,7 +98,7 @@ const Header = () => {
                 className="absolute inset-0 mix-blend-soft-light opacity-5"
               />
               <img
-                src="/images/bg-outlines-fill.png"
+                src={`${import.meta.env.BASE_URL}/images/bg-outlines-fill.png`}
                 alt="FILL"
                 width={960}
                 height={380}
@@ -114,7 +114,7 @@ const Header = () => {
         "
         >
           <img
-            src={`/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`${import.meta.env.BASE_URL}/images/${isOpen ? "close" : "magic"}.svg`}
             className="size-1/2 object-contain"
             alt="magic"
           />

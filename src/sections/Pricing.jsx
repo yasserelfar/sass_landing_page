@@ -48,14 +48,14 @@ return (
             </div>
             <div className="pricing-bg">
             <img
-                src="/images/bg-outlines.svg"
+                src={`${import.meta.env.BASE_URL}/images/bg-outlines.svg`}
                 alt="outline"
                 className="relative z-2 "
                 width={960}
                 height={380}
             />
             <img
-                src="/images/bg-outlines-fill.png"
+                src={`${import.meta.env.BASE_URL}/images/bg-outlines-fill.png`}
                 alt="outline"
                 width={960}
                 height={380}
@@ -88,7 +88,7 @@ return (
                 )}
                 >
                 <img
-                    src={plan.logo}
+                            src={`${import.meta.env.BASE_URL}/${plan.logo}`}
                     alt={plan.title}
                     className={clsx(
                     "object-contain drop-shadow-2xl",
@@ -146,7 +146,7 @@ return (
                     key={feature}
                     >
                     <img
-                        src="/images/check.png"
+                        src={`${import.meta.env.BASE_URL}/images/check.png`}
                         alt="check"
                         className="size-10 object-contain"
                     />

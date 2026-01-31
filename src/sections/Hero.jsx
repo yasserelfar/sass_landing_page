@@ -34,7 +34,7 @@ return (
                 pointer-events-none  hero-img_res"
         >
             <img
-            src="/images/hero.png"
+            src={`${import.meta.env.BASE_URL}/images/hero.png`}
             alt=""
             className="size-1230 max-lg:h-auto"
             />

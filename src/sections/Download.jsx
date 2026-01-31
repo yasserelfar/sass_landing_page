@@ -14,7 +14,7 @@ const Download = () => {
             >
               <div className="mb-100">
                 <img
-                  src="/images/xora.svg"
+                  src={`${import.meta.env.BASE_URL}/images/xora.svg`}
                   alt="xora"
                   width={160}
                   height={55}
@@ -43,7 +43,7 @@ const Download = () => {
                         <Marker />
                       </span>
                       <img
-                        src={"images/lines.svg"}
+                        src={`${import.meta.env.BASE_URL}/images/lines.svg`}
                         alt="icon"
                         className="absolute size-123/20 object-contain"
                       />
@@ -65,7 +65,7 @@ const Download = () => {
                   <span className="download_preview-dot left-6 bg-p2"></span>
                   <span className="download_preview-dot left-11 bg-s3"></span>
                   <span className="download_preview-dot left-16 bg-p1/15"></span>
-                  <img src="images/screen.jpg" alt="screen"
+                  <img src={`${import.meta.env.BASE_URL}/images/screen.jpg`} alt="screen"
                     className="screen"
                     width={855}
                     height={655}
@@ -77,7 +77,7 @@ const Download = () => {
           <ul className=" mt-24 justify-center flex max-lg:hidden">
             {logos.map(({ id, url, width, height,title }) => (
               <li key={id} className="mx-10">
-                <img src={url}   width={width} height={height} alt={title}/>
+                <img src={`${import.meta.env.BASE_URL}/${url}`}   width={width} height={height} alt={title}/>
               </li>
             ))}
           </ul>

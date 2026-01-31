@@ -14,7 +14,7 @@ const Button = ({ icon, children, href, containerClassName, markerFill }) => {
 
           {icon && (
             <img
-              src={icon}
+              src={`${import.meta.env.BASE_URL}/{icon}`}
               alt="circle"
               className="size-10 mr-5 object-contain z-10"
             />

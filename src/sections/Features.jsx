@@ -58,7 +58,7 @@ const Features = () => {
                                     transition-all duration-500  shadow-500 size-20"
                   >
                     <img
-                      src={icon}
+                      src={`${import.meta.env.BASE_URL}/${icon}`}
                       className="size-17/20 object-contain z-20"
                       alt=""
                     />
