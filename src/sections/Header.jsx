@@ -71,7 +71,7 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src="/images/xora.svg"
+                      src={`${import.meta.env.BASE_URL}images/xora.svg`}
                       width={160}
                       height={55}
                       alt="logo"
@@ -91,7 +91,7 @@ const Header = () => {
               -translate-y-1/2 rotate-90"
             >
               <img
-                src="/images/bg-outlines.svg"
+                src={`${import.meta.env.BASE_URL}images/bg-outlines.svg`}
                 alt="outline"
                 width={960}
                 height={380}
