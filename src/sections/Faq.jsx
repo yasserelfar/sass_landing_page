@@ -29,7 +29,7 @@ const Faq = () => {
                         z-4 flex size-20 items-center justify-center border-s2 border-2 bg-s1"
             >
               <img
-                src="/public/images/faq-logo.svg"
+                src="/images/faq-logo.svg"
                 alt="logo"
                 className="size-1/2"
               />

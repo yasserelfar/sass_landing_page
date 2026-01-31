@@ -14,7 +14,7 @@ const Download = () => {
             >
               <div className="mb-100">
                 <img
-                  src="/public/images/xora.svg"
+                  src="/images/xora.svg"
                   alt="xora"
                   width={160}
                   height={55}
@@ -43,7 +43,7 @@ const Download = () => {
                         <Marker />
                       </span>
                       <img
-                        src={"public/images/lines.svg"}
+                        src={"images/lines.svg"}
                         alt="icon"
                         className="absolute size-123/20 object-contain"
                       />
@@ -65,7 +65,7 @@ const Download = () => {
                   <span className="download_preview-dot left-6 bg-p2"></span>
                   <span className="download_preview-dot left-11 bg-s3"></span>
                   <span className="download_preview-dot left-16 bg-p1/15"></span>
-                  <img src="/public/images/screen.jpg" alt="screen"
+                  <img src="images/screen.jpg" alt="screen"
                     className="screen"
                     width={855}
                     height={655}

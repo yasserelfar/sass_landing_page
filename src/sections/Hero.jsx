@@ -26,7 +26,7 @@ return (
             learn, and surprisingly powerful.
             </p>
             <LinkScroll to="features" offset={-100} spysmooth>
-            <Button icon="/public/images/zap.svg ">Try it Now</Button>
+            <Button icon="/images/zap.svg ">Try it Now</Button>
             </LinkScroll>
         </div>
         <div
@@ -34,7 +34,7 @@ return (
                 pointer-events-none  hero-img_res"
         >
             <img
-            src="/public/images/hero.png"
+            src="/images/hero.png"
             alt=""
             className="size-1230 max-lg:h-auto"
             />

@@ -48,14 +48,14 @@ return (
             </div>
             <div className="pricing-bg">
             <img
-                src="/public/images/bg-outlines.svg"
+                src="/images/bg-outlines.svg"
                 alt="outline"
                 className="relative z-2 "
                 width={960}
                 height={380}
             />
             <img
-                src="/public/images/bg-outlines-fill.png"
+                src="/images/bg-outlines-fill.png"
                 alt="outline"
                 width={960}
                 height={380}
@@ -146,7 +146,7 @@ return (
                     key={feature}
                     >
                     <img
-                        src="/public/images/check.png"
+                        src="/images/check.png"
                         alt="check"
                         className="size-10 object-contain"
                     />
