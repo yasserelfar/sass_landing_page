@@ -22,7 +22,7 @@ const Features = () => {
                   <div className="-ml-3 mb-12 flex items-center justify-center flex-col">
                     <div className="w-0.5 h-16 bg-s5" />
                     <img
-                      src={icon}
+                      src={`${import.meta.env.BASE_URL}/${icon} `}
                       alt=""
                       className=" size-28 object-contain"
                     />
