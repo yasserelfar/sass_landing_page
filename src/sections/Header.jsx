@@ -38,7 +38,12 @@ const Header = () => {
     >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src={`${import.meta.env.BASE_URL}/images/xora.svg`} width={115} height={55} alt="" />
+          <img
+            src={`${import.meta.env.BASE_URL}/images/xora.svg`}
+            width={115}
+            height={55}
+            alt=""
+          />
         </a>
 
         <div
@@ -81,7 +86,7 @@ const Header = () => {
                 <li className="nav-li">
                   <NavLink title="faq" />
                   <div className="dot" />
-                  <NavLink title="Download" />
+                  <NavLink title="download" />
                 </li>
               </ul>
             </nav>
@@ -114,7 +119,9 @@ const Header = () => {
         "
         >
           <img
-            src={`${import.meta.env.BASE_URL}/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`${import.meta.env.BASE_URL}/images/${
+              isOpen ? "close" : "magic"
+            }.svg`}
             className="size-1/2 object-contain"
             alt="magic"
           />
